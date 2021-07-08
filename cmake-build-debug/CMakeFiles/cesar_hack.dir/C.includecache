@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../header/cesar_function.h
+stdbool.h
+-
+
+C:/Users/Denozi/CLionProjects/cesar_hack/src/main.c
+stdio.h
+-
+cesar_function.h
+C:/Users/Denozi/CLionProjects/cesar_hack/src/cesar_function.h
+stdbool.h
+-
+stdlib.h
+-
+
